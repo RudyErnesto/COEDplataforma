@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @emergencium.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @emergencium.longitude %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @emergencium.address %>
+</p>
+
+<p>
+  <strong>Descrption:</strong>
+  <%= @emergencium.descrption %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @emergencium.title %>
+</p>
+
+<%= link_to 'Edit', edit_emergencium_path(@emergencium) %> |
+<%= link_to 'Back', emergencia_path %>
