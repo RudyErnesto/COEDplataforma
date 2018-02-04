@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 ruby '2.4.1'
 group :production do
-  #gem 'pg'
+  gem 'pg'
 end
 
 gem 'geocoder'
